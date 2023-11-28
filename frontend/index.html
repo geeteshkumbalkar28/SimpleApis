@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/frontend/css/styles.css">
+    <script src="/frontend/JS/signnup.js" defer></script> 
+
+    <title>User Signup Form</title>
+</head>
+<body>
+    <div class="signup-container">
+        <form action="handleLoginFormSubmission(event)" method="post">
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" name="userName" required>
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </div>
+    <a href="/frontend/login.html">Login</a>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+/* Apply a border around the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Style for table header cells */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style for table data cells */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Apply a background color to every other row for better readability */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on table rows */
+tbody tr:hover {
+    background-color: #e0e0e0;
+}
