@@ -39,6 +39,7 @@ public class UserController {
     @GetMapping("/getAll")
     public ResponseEntity<?> getAll(){
 
+
         List<User> user = userRepo.findAll();
         if (user.size() >= 0) {
             return ResponseEntity.status(HttpStatus.OK).body(user);
